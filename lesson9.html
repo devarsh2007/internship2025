@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <nav>
+            <table border="0" width="100%" bgcolor="lightgreen">
+                <tr align="center">
+                    <td width="55px"> <img src="https://picsum.photos/50"
+                            alt></td>
+                    <td width="5%"> <h1><font size="5">Mypage</font></h1></td>
+                    <td width="50%"></td>
+                    <td><a href><font size="5"> home</font></a></td>
+                    <td><a href><font size="5">category</font> </a></td>
+                    <td><a href><font size="5"> about us</font></a></td>
+                    <td><a href><font size="5">contact us</font> </a></td>
+                    <td><a href><font size="5">login</font> </a></td>
+                </tr>
+            </table>
+
+        </nav>
+
+        <ul>
+            <li>input</li>
+            <li>select</li>
+            <li>textarea</li>
+        </ul>
+
+        <ul>
+            <li>submit</li>
+            <li>reset</li>
+            <li>button</li>
+        </ul>
+
+        <form action="./success.html">
+            <table border="1" cellpadding="10" width="25%" align="center">
+                <tr bgcolor="darkblue">
+                    <td colspan="2" align="center">
+                         <font size="5" color="white">Login Form</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="username">username</label></td>
+                    <td>
+                        <input type="text" size="30px" id="username" name="username" required placeholder="abc123">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">email</label></td>
+                    <td>
+                        <input type="email" size="30px" id="email" name="email" required placeholder="abz@gmail.com">
+                    </td>
+                </tr>   
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td>
+                        <input type="password" size="30px" id="password" name="password" required placeholder="12345">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="country">country</label></td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="0">select city</option>
+                            <option value="1">india</option>
+                            <option value="2">usa</option>
+                            <option value="3">china</option>
+                            <option value="4">new zeland</option>
+                            <option value="5">london</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">address</label></td>
+                    <td>
+                        <textarea name="address" id="address" rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit"><font size="4">login</font></button>
+
+                        <button type="reset"><font size="4">clear all</font></button>
+
+                        <button type="button"><font size="4">dummy button</font></button>
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+    </body>
+</html>
