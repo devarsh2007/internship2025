@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.3rem;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin-left: 10%;
+            transition: all ease-in-out 1s;
+            margin-bottom: 30px;
+
+            transition-delay: 3s;
+        }
+
+        #div1:hover{
+            transform:scale(2);
+        }
+
+        #div2:hover{
+            transform: rotateY(-180deg);
+            transform: rotateX(180deg);
+            transform: rotateZ(180deg);
+
+        }
+
+        button:hover + #div3{
+            transform: translateX(500px);
+            transform: translateY(-100px) rotate(360deg);
+            background-color: purple;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>
+        working with animation - transition & transform
+    </h1>
+    <hr>
+    <br><br>
+
+    <div id="div1"></div>
+    <div id="div2"></div>
+
+    <button>click</button>
+    <div id="div3"></div>
+</body>
+</html>
