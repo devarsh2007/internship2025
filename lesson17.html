@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        
+        
+
+        body{
+            background-color: white;
+        }
+
+        .story div{
+            background-color: aquamarine;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .story{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        /* Smartphones (Portrait) */
+        @media only screen and (min-width: 360px) and (max-width: 480px) {
+            .story{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+.story div{
+            background-color: rgb(220, 241, 234);
+        }
+
+        }
+
+        /* Smartphones & Small Tablets (Landscape) */
+        @media only screen and (min-width: 481px)  and (max-width: 767px) {
+            .story{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .story div{
+            background-color: rgb(182, 236, 218);
+        }
+        }
+
+        /* Tablets (Portrait & Landscape) */
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .story{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .story div{
+            background-color: rgb(159, 230, 206);
+        }
+        }
+
+        /* Laptops and Desktops (Small Screens) */
+        @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+            .story{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .story div{
+            background-color: rgb(164, 231, 209);
+        }
+        }
+
+        /* Large Screens (Desktops) */
+        @media only screen and (min-width: 1281px) {
+             .story{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .story div{
+            background-color: rgb(156, 241, 213);
+        }
+        }
+
+    </style>
+    </head>
+    <body>
+        <h1>
+            working with media query
+        </h1>
+        <hr>
+
+        <div class="story">
+            <div>
+                <h2>story 1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempore et itaque aspernatur quasi quaerat molestias,
+                    sapiente quia praesentium fugit iste voluptate iusto, cumque
+                    atque, est labore quam obcaecati eveniet possimus ullam
+                    explicabo. Aliquid possimus asperiores est quis modi esse
+                    corporis placeat architecto voluptatum, neque quos? Aliquam
+                    eum iure harum alias.</p>
+            </div>
+            <div>
+                <h2>story 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempore et itaque aspernatur quasi quaerat molestias,
+                    sapiente quia praesentium fugit iste voluptate iusto, cumque
+                    atque, est labore quam obcaecati eveniet possimus ullam
+                    explicabo. Aliquid possimus asperiores est quis modi esse
+                    corporis placeat architecto voluptatum, neque quos? Aliquam
+                    eum iure harum alias.</p>
+            </div>
+            <div>
+                <h2>story 3</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempore et itaque aspernatur quasi quaerat molestias,
+                    sapiente quia praesentium fugit iste voluptate iusto, cumque
+                    atque, est labore quam obcaecati eveniet possimus ullam
+                    explicabo. Aliquid possimus asperiores est quis modi esse
+                    corporis placeat architecto voluptatum, neque quos? Aliquam
+                    eum iure harum alias.</p>
+            </div>
+            <div>
+                <h2>story 4</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempore et itaque aspernatur quasi quaerat molestias,
+                    sapiente quia praesentium fugit iste voluptate iusto, cumque
+                    atque, est labore quam obcaecati eveniet possimus ullam
+                    explicabo. Aliquid possimus asperiores est quis modi esse
+                    corporis placeat architecto voluptatum, neque quos? Aliquam
+                    eum iure harum alias.</p>
+            </div>
+        </div>
+    </body>
+</html>
