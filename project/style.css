@@ -41,3 +41,42 @@
 #members h4:hover{
     color:rgb(4, 4, 170);
 }
+
+
+.theme-card {
+      background-color: #fffbea;
+      border: 2px solid #ffc107;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .theme-card .card-body {
+      background-color: #fffbe0;
+      color: #222;
+    }
+    .theme-card .card-title {
+      font-weight: bold;
+      color: #000;
+    }
+    .theme-card .price {
+      color: #000;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    .btn-theme {
+      background-color: #000;
+      color: #ffc107;
+      border: none;
+    }
+    .btn-theme:hover {
+      background-color: #333;
+      color: #ffc107;
+    }
+    .veg-dot {
+      color: green;
+      font-size: 1.2rem;
+      margin-left: 8px;
+    }
+    .food-section {
+      display: none;
+    }
