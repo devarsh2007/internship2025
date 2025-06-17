@@ -1033,53 +1033,380 @@
         <hr>
         <br><br>
 
-
         <div class="container mt-4 ">
             <div class="row">
                 <div class="col-12 ">
                     <h2 class="fw-bold">Select Pet Type For Leash</h2>
-                    <select id="petType" class=" form-select w-25"
-                        onchange="showFood()">
-                        <option value="">-- Choose Pet --</option>
+                    <select id="leashType" class="form-select w-25"
+                        onchange="showLeash()">
+
+                        <option value>-- Choose Pet --</option>
                         <option value="dog2">Dog</option>
                         <option value="cat2">Cat</option>
-                        
+
                     </select>
 
                     <br>
                     <!-- Food Sections -->
-                    <div id="dog2" >
-                        <h3>Dog Food</h3>
-                        
+                    <div id="dog2" class="leash-section" style="display:none;">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=5"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Dog Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Heavy
+                                                    Duty
+                                                    Dog Leash</h5>
+                                                <p
+                                                    class="card-text mb-2">Durable
+                                                    nylon leash with comfortable
+                                                    grip, ideal for walks and
+                                                    training.</p>
+                                                <p
+                                                    class="card-text price">₹299</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme"><i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=5"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Dog Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Heavy
+                                                    Duty
+                                                    Dog Leash</h5>
+                                                <p
+                                                    class="card-text mb-2">Durable
+                                                    nylon leash with comfortable
+                                                    grip, ideal for walks and
+                                                    training.</p>
+                                                <p
+                                                    class="card-text price">₹299</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme"><i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=5"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Dog Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Heavy
+                                                    Duty
+                                                    Dog Leash</h5>
+                                                <p
+                                                    class="card-text mb-2">Durable
+                                                    nylon leash with comfortable
+                                                    grip, ideal for walks and
+                                                    training.</p>
+                                                <p
+                                                    class="card-text price">₹299</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme"><i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=5"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Dog Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Heavy
+                                                    Duty
+                                                    Dog Leash</h5>
+                                                <p
+                                                    class="card-text mb-2">Durable
+                                                    nylon leash with comfortable
+                                                    grip, ideal for walks and
+                                                    training.</p>
+                                                <p
+                                                    class="card-text price">₹299</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme"><i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=5"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Dog Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Heavy
+                                                    Duty
+                                                    Dog Leash</h5>
+                                                <p
+                                                    class="card-text mb-2">Durable
+                                                    nylon leash with comfortable
+                                                    grip, ideal for walks and
+                                                    training.</p>
+                                                <p
+                                                    class="card-text price">₹299</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme"><i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <div id="cat2" >
-                        <h3>Cat Food</h3>
+                    <div id="cat2" class="leash-section" style="display:none;">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=12"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Cat Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5
+                                                    class="card-title">Adjustable
+                                                    Cat Harness & Leash</h5>
+                                                <p class="card-text mb-2">Soft,
+                                                    breathable mesh harness with
+                                                    escape-proof buckle. Ideal
+                                                    for safe outdoor
+                                                    adventures.</p>
+                                                <p
+                                                    class="card-text price">₹249</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme">
+                                                    <i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=12"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Cat Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5
+                                                    class="card-title">Adjustable
+                                                    Cat Harness & Leash</h5>
+                                                <p class="card-text mb-2">Soft,
+                                                    breathable mesh harness with
+                                                    escape-proof buckle. Ideal
+                                                    for safe outdoor
+                                                    adventures.</p>
+                                                <p
+                                                    class="card-text price">₹249</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme">
+                                                    <i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=12"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Cat Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5
+                                                    class="card-title">Adjustable
+                                                    Cat Harness & Leash</h5>
+                                                <p class="card-text mb-2">Soft,
+                                                    breathable mesh harness with
+                                                    escape-proof buckle. Ideal
+                                                    for safe outdoor
+                                                    adventures.</p>
+                                                <p
+                                                    class="card-text price">₹249</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme">
+                                                    <i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=12"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Cat Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5
+                                                    class="card-title">Adjustable
+                                                    Cat Harness & Leash</h5>
+                                                <p class="card-text mb-2">Soft,
+                                                    breathable mesh harness with
+                                                    escape-proof buckle. Ideal
+                                                    for safe outdoor
+                                                    adventures.</p>
+                                                <p
+                                                    class="card-text price">₹249</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme">
+                                                    <i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card mb-3 theme-card"
+                                    style="max-width: 600px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://picsum.photos/300?random=12"
+                                                class="img-fluid rounded-start h-100 object-fit-cover"
+                                                alt="Cat Leash">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5
+                                                    class="card-title">Adjustable
+                                                    Cat Harness & Leash</h5>
+                                                <p class="card-text mb-2">Soft,
+                                                    breathable mesh harness with
+                                                    escape-proof buckle. Ideal
+                                                    for safe outdoor
+                                                    adventures.</p>
+                                                <p
+                                                    class="card-text price">₹249</p>
+                                                <button
+                                                    class="btn btn-sm btn-theme">
+                                                    <i
+                                                        class="bi bi-plus-lg"></i>
+                                                    Add to Cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Paste cat leash cards here -->
                     </div>
 
-                    
                 </div>
             </div>
         </div>
-        
 
-            <br><br>
-            <div class=" container-fluid bg-dark">
-                <div class="row">
-                    <div class="col-12">
-                        <footer class="text-center py-4  text-white">
-                            &copy; 2025 Store for Pets. All rights reserved.
-                        </footer>
+        <br><br>
+        <div class=" container-fluid bg-dark">
+            <div class="row">
+                <div class="col-12">
+                    <footer class="text-center py-4  text-white">
+                        &copy; 2025 Store for Pets. All rights reserved.
+                    </footer>
 
-                    </div>
                 </div>
             </div>
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-                    crossorigin="anonymous"></script>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
 
-                <script>
+        <script>
    function showFood() {
       const selected = document.getElementById("petType").value;
       const sections = document.querySelectorAll(".food-section");
@@ -1092,6 +1419,20 @@
         document.getElementById(selected).style.display = "block";
       }
     }
-  </script>
-            </body>
-        </html>
+
+  function showLeash() {
+    const selected = document.getElementById("leashType").value;
+    const sections = document.querySelectorAll(".leash-section");
+
+    sections.forEach(section => {
+      section.style.display = "none";
+    });
+
+    if (selected) {
+      document.getElementById(selected).style.display = "block";
+    }
+  }
+</script>
+
+    </body>
+</html>
